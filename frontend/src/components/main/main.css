@@ -1,0 +1,29 @@
+body {
+    background-image: url("../../assets/img/17.png");
+    background-size: cover; /* Agar gambar menutupi seluruh area */
+    background-position: center; /* Posisi gambar di tengah */
+    background-attachment: fixed; /* Gambar latar belakang tetap saat scroll */
+    height: 100vh; /* Atur tinggi sesuai kebutuhan */
+    margin: 0; /* Menghapus margin default */
+  }
+  
+  /* Media Query untuk tampilan kecil (mobile) */
+  @media (max-width: 640px) {
+    .translate-y-72 {
+      margin-top: 4rem; /* Mengurangi jarak margin atas pada perangkat mobile */
+      margin-bottom: 4rem; /* Mengurangi jarak margin bawah pada perangkat mobile */
+    }
+    .m-60 {
+      margin: 2rem; /* Mengurangi margin secara keseluruhan pada perangkat mobile */
+    }
+    
+  }
+  
+  /* Media Query untuk tampilan kecil (mobile) */
+@media (max-width: 640px) {
+    .btn-responsive {
+      padding: 0.5rem 1rem; /* Mengurangi padding pada perangkat mobile */
+      font-size: 0.875rem; /* Mengurangi ukuran font pada perangkat mobile */
+    }
+  }
+  
